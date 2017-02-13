@@ -1,0 +1,138 @@
+body,html{
+	width: 100%;
+    height: 100%;
+    margin: 0;
+	padding: 0;
+	background-color: orange;
+
+
+}
+
+.limpia{
+	clear: both;
+}
+
+#pagina{
+	width: 99%;
+	height: 93%;
+}
+
+/*CABECERA*/
+
+header{
+	width: 100%;
+	border: 1px solid black;
+	height: 166px;
+	margin-left: 3px;
+}
+
+	#logo_texto{
+		width: 100%;
+		height: 120px;
+		background-color: white;
+	}
+
+	#logo{
+		width: 20%;
+		background-image: url("golum.gif");
+		background-size: 95%;
+		background-repeat: no-repeat;
+		float: left;
+		height: 100%;
+	}
+
+	#texto{
+		width: 80%;
+		background-image: url("logo.png");
+		background-repeat: no-repeat;
+		text-align: center;
+		float: left;
+		height: 100%;
+		margin: auto;
+	}
+
+	/*MENÚ*/
+
+	.navi{
+
+		width: 100%;
+		height: 100%;
+		/*margin: -2px;*/
+		font-family: Aref Ruqaa;
+		font-size: 15px;
+	}
+
+	.navi ul{
+		list-style: none;/*No declararlo como lista*/
+		margin: 2px 2px 2px 2px;
+		padding-left: 255px;
+		overflow: hidden; 
+		background-color: #8EB0F4;
+	}
+
+	.navi ul li{
+		float: left;
+		padding: 3px 0px 0px 5px;
+	}
+	.navi ul li a{
+		display: inline-block; /*Que te ponga los enlaces en línea*/
+		color: white;
+		text-align: center;
+		padding: 8px 12px;
+		text-decoration: none;/*Quitar el subrayado de*/
+	}
+
+	.navi ul li a:hover{
+		background-color: #1E67FC;
+	}
+
+/*TEXTO*/
+
+#contenido{
+	width: 100%;
+	height: 75%;
+	display: block;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+/*LATERAL IZQUIERDO*/
+section{
+	width: 65%;
+	height:100%;
+	float:left;
+	border: 1px solid black;
+}
+
+p{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: Aref Ruqaa;
+
+}
+
+/*LATERAL DERECHO*/
+
+aside{
+	width: 34%;
+	float: left;
+	height: 100%;
+	background-image: url("background_2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid black;
+	margin-left: 9px;
+	text-align: center;
+}
+
+/*PIE DE PÁGINA*/
+
+footer{
+	font-family: Aref Ruqaa;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 3px;
+}
